@@ -53,3 +53,14 @@ button:focus {
   box-shadow: 20px 30px 10px rgb(103, 103, 103);
   -webkit-box-shadow: 20px 30px 10px rgb(103, 103, 103);
 }
+
+/* !Gif animation */
+
+.gif {
+  transition: 0.5s;
+  content: url("Images/stand.gif");
+}
+
+.gif:hover {
+  content: url("Images/idle.gif");
+}
