@@ -1,0 +1,68 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* !Right */
+
+.btn-menu {
+  position: absolute;
+  right: 8%;
+  top: 11%;
+  background: #51b7e4;
+}
+
+.right-img {
+  margin: 1%;
+  width: 95%;
+  transform: matrix(1, -0.05, 0.1, 1, 0, 0);
+}
+
+/* !Left */
+
+:is(.left p, .left h1, .left button) {
+  margin-left: 4%;
+  font-family: Tinos;
+}
+
+.left {
+  margin: 5%;
+}
+
+.left .logo {
+  background: url(image.png);
+  width: 40%;
+  border-radius: 10px;
+}
+
+.left .logo:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px #0d6cc8;
+  -webkit-box-shadow: 2px 2px 5px #0d6cc8;
+}
+
+.left h1 {
+  width: 500px;
+  font-weight: bold;
+  font-size: 74px;
+  color: #0d6cc8;
+
+  margin-block-start: 0.5em;
+  margin-block-end: 0.4em;
+}
+
+.left p {
+  width: 400px;
+  font-size: 18px;
+  color: #0d6dc8;
+  margin-block-end: 4em;
+}
+
+.left .btn1 {
+  background: #7fcbeb;
+}
+
+.left .btn2 {
+  background: #0d6ec7;
+}
