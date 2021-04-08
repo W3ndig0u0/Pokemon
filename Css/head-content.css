@@ -4,19 +4,8 @@
 }
 
 /* !Right */
-
-.btn-menu {
-  position: absolute;
-  margin: 5%;
-  right: 2%;
-  top: 2%;
-  background: #51b7e4;
-}
-
 .right-img {
-  z-index: 1;
-  margin: 1%;
-  width: 95%;
+  width: 90%;
   transform: matrix(1, -0.05, 0.1, 1, 0, 0);
 }
 
@@ -26,7 +15,6 @@
 }
 
 /* !Left */
-
 :is(.left p, .left h1, .left button) {
   margin-left: 4%;
   font-family: Tinos;
@@ -53,22 +41,21 @@
   font-weight: bold;
   font-size: 74px;
   color: #0d6cc8;
-
-  margin-block-start: 0.5em;
-  margin-block-end: 0.4em;
+  margin-block-start: 7%;
+  margin-block-end: 6%;
 }
 
 .left p {
-  width: 400px;
+  width: 300px;
   font-size: 18px;
   color: #0d6dc8;
-  margin-block-end: 4em;
+  margin-block-start: 8%;
 }
 
 .left .btn1 {
   background: #7fcbeb;
 }
 
-.left .btn2 {
-  background: #0d6ec7;
+.btn-menu {
+  background: #0d6dc8;
 }

@@ -17,6 +17,10 @@ body {
   background-repeat: repeat;
 }
 
+main {
+  display: none;
+}
+
 button {
   display: inline-block;
   width: 130px;
@@ -32,8 +36,8 @@ button {
 button:hover {
   cursor: pointer;
   transition: 0.4s;
-  box-shadow: 3px 3px 10px rgb(27, 27, 27);
-  -webkit-box-shadow: 3px 3px 10px rgb(27, 27, 27);
+  box-shadow: 5px 5px 5px #7fcbeb;
+  -webkit-box-shadow: 5px 5px 5px #7fcbeb;
 }
 
 button:focus {
@@ -58,17 +62,18 @@ button:focus {
 .gif {
   transition: 0.5s;
   content: url("Images/stand.gif");
+  border-radius: 100px;
 }
 
 .gif:hover {
   content: url("Images/idle.gif");
+  border-radius: 100px;
 }
 
 /* !Loading */
-.loader-img,
-.loader h1 {
+.loader-img {
   position: fixed;
-  z-index: 9999;
+  z-index: 9;
   top: 0;
   left: 0;
   width: 100%;
@@ -77,20 +82,38 @@ button:focus {
 
 .loader h1 {
   position: fixed;
-  z-index: 99999;
+  z-index: 9999;
   top: 20%;
   left: 42%;
-  font-size: 72px;
+  font-size: 68px;
 }
 
-.loader.hidden {
-  animation: fadeOut 3s;
-  animation-fill-mode: forwards;
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
 }
 
-@keyframes fadeOut {
-  100% {
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
     opacity: 0;
-    visibility: hidden;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
   }
 }
