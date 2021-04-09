@@ -50,7 +50,7 @@ button:focus {
   margin: 2.5%;
   height: 90%;
   width: 95%;
-  background: url("Images/background.jpg") no-repeat center center;
+  background: url("Images/bg.jpg") no-repeat center center;
   background-size: cover;
   border-radius: 50px;
   margin-bottom: 5rem;
@@ -65,7 +65,7 @@ button:focus {
   margin: 2.5%;
   height: 90%;
   width: 95%;
-  background: url("Images/background.jpg") no-repeat center center;
+  background: url("Images/bg.jpg") no-repeat center center;
   background-size: cover;
   border-radius: 50px;
   margin-bottom: 5rem;
@@ -77,7 +77,7 @@ button:focus {
 
 .footer-content {
   margin: 2.5%;
-  background: url("Images/background.jpg") no-repeat right;
+  background: url("Images/bg.jpg") no-repeat right;
   background-size: cover;
   border-radius: 50px;
   transform: rotate(-180deg);
