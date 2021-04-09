@@ -12,9 +12,46 @@
   box-shadow: -20px -30px 10px rgb(103, 103, 103);
   -webkit-box-shadow: -20px -30px 10px rgb(103, 103, 103);
 }
+.mobile-space {
+  padding: 0;
+}
 
-.img {
-  width: 90%;
-  transform: matrix(1, -0.05, 0.1, 1, 0, 0);
+.computer-space {
+  padding: 3rem 0;
+}
+
+.content {
   transform: rotate(-180deg);
+  margin: 4rem;
+}
+
+.left-box1 {
+  min-width: 45%;
+}
+
+.left-box1 .game-header {
+  font-size: 1.8rem;
+  justify-self: start;
+}
+
+.left-box1 .game-p {
+  text-align: end;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+.right-box1 {
+  margin: 0;
+  margin-left: 6rem;
+}
+
+.right-box1 .game-img1 {
+  width: 48%;
+  margin-top: 7rem;
+}
+
+.right-box1 .game-img2 {
+  width: 48%;
+  margin-bottom: 7rem;
 }
