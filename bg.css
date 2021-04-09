@@ -1,49 +1,5 @@
-* {
-  /* !Undraggable */
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-}
-
 body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
   background: url("Images/sky.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: repeat;
-}
-
-main {
-  display: none;
-}
-
-button {
-  display: inline-block;
-  width: 130px;
-  height: 50px;
-  border-radius: 10px;
-  border: none;
-  padding: 0;
-  margin: 0;
-  color: white;
-  font-size: 18px;
-}
-
-button:hover {
-  cursor: pointer;
-  transition: 0.4s;
-  box-shadow: 5px 5px 5px #7fcbeb;
-  -webkit-box-shadow: 5px 5px 5px #7fcbeb;
-}
-
-button:focus {
-  outline: none;
 }
 
 .head-content {
@@ -61,6 +17,19 @@ button:focus {
 }
 
 .box-content {
+  margin: 2.5%;
+  height: 90%;
+  width: 95%;
+  background: url("Images/bg.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50px;
+  margin-bottom: 5rem;
+
+  /* !shadow */
+  box-shadow: 20px 30px 10px rgb(103, 103, 103);
+  -webkit-box-shadow: 20px 30px 10px rgb(103, 103, 103);
+}
+.box-content2 {
   transform: rotate(-180deg);
   margin: 2.5%;
   height: 90%;
