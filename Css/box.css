@@ -1,17 +1,3 @@
-.box-content {
-  transform: rotate(-180deg);
-  margin: 2.5%;
-  height: 90%;
-  width: 95%;
-  background: url("/Images/background.jpg") no-repeat center center;
-  background-size: cover;
-  border-radius: 50px;
-  margin-bottom: 5rem;
-
-  /* !shadow */
-  box-shadow: -20px -30px 10px rgb(103, 103, 103);
-  -webkit-box-shadow: -20px -30px 10px rgb(103, 103, 103);
-}
 .mobile-space {
   padding: 0;
 }

@@ -1,29 +1,3 @@
-.head-content {
-  margin: 2.5%;
-  height: 90%;
-  width: 95%;
-  background: url("/Images/background.jpg") no-repeat center center;
-  background-size: cover;
-  border-radius: 50px;
-  margin-bottom: 5rem;
-
-  /* !shadow */
-  box-shadow: 20px 30px 10px rgb(103, 103, 103);
-  -webkit-box-shadow: 20px 30px 10px rgb(103, 103, 103);
-}
-
-/* !Gif animation */
-
-.gif {
-  content: url("/Images/stand.gif");
-  border-radius: 100px;
-}
-
-.gif:hover {
-  content: url("/Images/idle.gif");
-  border-radius: 100px;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

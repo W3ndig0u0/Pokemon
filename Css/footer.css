@@ -2,16 +2,6 @@ footer {
   display: none;
 }
 
-.footer-content {
-  margin: 2.5%;
-  background: url("/Images/background.jpg") no-repeat right;
-  background-size: cover;
-  border-radius: 50px;
-  transform: rotate(-180deg);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .footer-right {
   margin-left: 5%;
   height: 100%;
