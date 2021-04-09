@@ -1,0 +1,45 @@
+* {
+  /* !Undraggable */
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("/Images/sky.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+main {
+  display: none;
+}
+
+button {
+  display: inline-block;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 5px 5px 5px #7fcbeb;
+  -webkit-box-shadow: 5px 5px 5px #7fcbeb;
+}
+
+button:focus {
+  outline: none;
+}
