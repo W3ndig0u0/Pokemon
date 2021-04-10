@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="Css/footer.css">
 
 <!-- !Js -->
-
 <script defer src="loader.js"></script>
+<script defer src="header.js"></script>
 
   <!-- !Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,17 +30,14 @@
 
 <body onload="timer()">
 
-  <!-- !Loading Screen -->
-  <div id="loader">
-    <img  class="loader-gif" src="Images/loading-gif.gif" alt="Loading Screen" />
-    <!-- <img  class="loader-gif" src="Images/loader.gif" alt="Loading Screen" /> -->
-  </div>
+<!-- !Loading Screen -->
+<div id="loader">
+  <img  class="loader-gif" src="Images/loading-gif.gif" alt="Loading Screen" />
+</div>
 
-  <!-- !Header -->
-  <main id="main"  class="animate-bottom">
-
-    <!-- !Section1 -->
-  <section class="head-content">
+<!-- !Header -->
+<header class="header">
+    <section class="head-content">
       <div class="grid">
               
          <div class="left">
@@ -54,9 +51,38 @@
    
              </div> 
              <img class="right-img" src="Images/Pikachu.png" alt="Pikachu">
-             <a href="#"><button class="btn-menu">Menu</button></a>
+             <button class="menu">Menu</button>
          </div>
-    </section>
+  </section>
+  
+  
+  <div class="links">
+    <ul>
+      <button class="menu1">Menu</button>
+        <li>
+          <a href="#">1</a>
+        </li>
+        <li>
+          <a href="#">2</a>
+        </li>
+        <li>
+          <a href="#">3</a>
+        </li>
+        <li>
+          <a href="#">4</a>
+        </li>
+        <li>
+          <a href="#">5</a>
+        </li>
+        <li>
+          <a href="#" >6</a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main id="main"  class="animate-bottom">
     
         <!-- !Section 2 -->
     <section class="box-content2">

@@ -4,14 +4,12 @@
 }
 
 /* !Right */
-.btn-menu {
+.menu {
   position: absolute;
-  top: 2%;
-  right: 7%;
-  margin: 1%;
+  top: 12%;
+  right: 8%;
   background: #7fcbeb;
 }
-
 .right-img {
   position: relative;
   width: 90%;
