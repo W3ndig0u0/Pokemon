@@ -2,7 +2,7 @@ var loader = document.querySelector(".loader");
 var myVar;
 
 function timer() {
-  myVar = setTimeout(showPage, 2000);
+  myVar = setTimeout(showPage, 3500);
 }
 
 function showPage() {
