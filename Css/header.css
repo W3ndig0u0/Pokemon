@@ -1,10 +1,10 @@
 .header.active .head-content {
-  animation: head-content-animation 1s ease;
+  animation: head-content-animation 2s ease;
   transform: perspective(900px) rotateY(20deg) translateZ(100px) scale(0.5);
 }
 
 .header .head-content {
-  animation: head-content-back-animation 1s ease;
+  animation: head-content-back-animation 1s ease-in;
 }
 
 @keyframes head-content-animation {
@@ -27,6 +27,20 @@
   }
 }
 
+.menu1 {
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  right: 30%;
+  background: #7fcbeb;
+  z-index: -1;
+}
+
+.header.active .menu1 {
+  z-index: 2;
+  animation: appear 2s forwards ease var(--i);
+}
+
 .links {
   --i: 0.1s;
   position: absolute;
@@ -41,16 +55,18 @@
 }
 
 .links a {
+  opacity: 0;
   text-decoration: none;
   color: #0d6cc8;
   padding: 0.7rem 0;
   display: inline-block;
+  margin-top: 1rem;
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
   transition: 0.3s;
   transform: translateY(10px);
-  animation: hide 0.5s forwards ease;
+  animation: hide 1s forwards ease;
 }
 
 .links a:hover {
@@ -64,7 +80,7 @@
 
 .header.active .links a {
   z-index: 2;
-  animation: appear 0.5s forwards ease var(--i);
+  animation: appear 2s forwards ease var(--i);
 }
 
 @keyframes appear {
@@ -85,6 +101,6 @@
   }
   to {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(100px);
   }
 }
