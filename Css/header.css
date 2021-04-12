@@ -104,3 +104,7 @@
     transform: translateY(100px);
   }
 }
+
+.body.active {
+  overflow-y: hidden;
+}

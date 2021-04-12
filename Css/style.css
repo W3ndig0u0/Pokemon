@@ -17,7 +17,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat;
-  overflow-y: scroll;
 }
 
 main {

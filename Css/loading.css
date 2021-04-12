@@ -9,7 +9,7 @@
   z-index: 100;
 }
 
-.animate-bottom { 
+.animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
   animation-name: animatebottom;
@@ -37,4 +37,9 @@
     bottom: 0;
     opacity: 1;
   }
+}
+
+/* !Scorllbar */
+.body.active {
+  overflow-y: hidden;
 }
