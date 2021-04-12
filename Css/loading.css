@@ -19,7 +19,7 @@
 
 @-webkit-keyframes animatebottom {
   from {
-    bottom: -1300px;
+    bottom: -1000px;
     opacity: 0;
   }
   to {
@@ -30,7 +30,7 @@
 
 @keyframes animatebottom {
   from {
-    bottom: -1300px;
+    bottom: -1000px;
     opacity: 0;
   }
   to {
