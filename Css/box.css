@@ -1,3 +1,9 @@
+/* !Pokedex */
+.pokedex-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* !Games */
 .content {
   margin: 4rem;
