@@ -17,29 +17,6 @@
   animation-duration: 5s;
 }
 
-@-webkit-keyframes animatebottom {
-  from {
-    bottom: -1000px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0px;
-    opacity: 1;
-  }
-}
-
-@keyframes animatebottom {
-  from {
-    bottom: -1000px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 1;
-  }
-}
-
-/* !Scorllbar */
 .body.active {
   overflow-y: hidden;
 }

@@ -1,4 +1,4 @@
-const poke_container = document.getElementById('poke_container');
+const pokemonContainer = document.getElementById('pokemon-container');
 const pokemons_number = 150;
 const random = Math.floor(Math.random() * (0 - 150 + 1)) + 150;
 
@@ -62,7 +62,7 @@ function createPokemonCard(pokemon) {
 
 	pokemonEl.innerHTML = pokeInnerHTML;
 
-	poke_container.appendChild(pokemonEl);
+	pokemonContainer.appendChild(pokemonEl);
 }
 
 fetchPokemons();
