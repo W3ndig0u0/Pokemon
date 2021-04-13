@@ -3,25 +3,17 @@
 @keyframes pokeconsmall {
   from {
     padding-bottom: 100%;
-    width: 140px;
-    height: 90px;
   }
   to {
     padding-top: 40%;
-    width: 150px;
-    height: 90px;
   }
 }
 @keyframes pokeconbig {
   from {
     padding-top: 40%;
-    width: 150px;
-    height: 90px;
   }
   to {
     padding-bottom: 100%;
-    width: 140px;
-    height: 90px;
   }
 }
 
@@ -48,10 +40,12 @@
 
 @keyframes appear-pokemon {
   from {
+    visibility: hidden;
     margin-top: 0%;
     transform: translateY(100px);
   }
   to {
+    visibility: visible;
     margin-top: 20%;
     transform: translateY(0px);
   }
@@ -59,10 +53,12 @@
 
 @keyframes hide-pokemon {
   from {
+    visibility: visible;
     margin-top: 0%;
     transform: translateY(0px);
   }
   to {
+    visibility: hidden;
     margin-top: 20%;
     transform: translateY(300px);
   }

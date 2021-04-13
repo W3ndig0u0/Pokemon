@@ -36,7 +36,10 @@
   border-radius: 50%;
   text-align: center;
   animation: pokeconsmall 0.9s forwards ease;
+  width: 8rem;
+  height: 2.5rem;
 }
+
 .pokemon:hover .img-container,
 .pokemon:active .img-container {
   background-color: white;
@@ -54,12 +57,12 @@
 
 /* !Texten */
 .pokemon .info {
-  animation: hide-pokemon 2s forwards ease;
+  animation: hide-pokemon 1s forwards ease;
 }
 
 .pokemon:hover .info,
 .pokemon:active .info {
-  animation: appear-pokemon 2s forwards ease;
+  animation: appear-pokemon 1s forwards ease;
 }
 
 .pokemon .number {

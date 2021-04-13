@@ -1,7 +1,3 @@
-const pokemonContainer = document.getElementById('pokemon-container');
-const random = Math.floor(Math.random() * (0 - 899 + 1)) + 899;
-const randomI = Math.floor(Math.random() * (-8 - 8 + 1)) + 8;
-
 const colors = {
 	fire: '#EE8130',
 	grass: '#7AC74C',
@@ -25,12 +21,15 @@ const colors = {
 
 const main_types = Object.keys(colors);
 
+// !Pokemon ID + Antalt
 const fetchPokemons = async () => {
-	for (let i = random; i <= random + 3; i++) {
-		await getPokemon(i);
+	for (let i = 0; i <= 3; i++) {
+		const random = Math.floor(Math.random() * (1 - 890 + 1)) + 890;
+		await getPokemon(random);
 	}
 };
 
+// !Tar infot
 const getPokemon = async id => {
 	const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
 	const res = await fetch(url);
@@ -38,6 +37,8 @@ const getPokemon = async id => {
 	createPokemonCard(pokemon);
 };
 
+
+// !visar Info
 function createPokemonCard(pokemon) {
 	const pokemonEl = document.createElement('div');
 	pokemonEl.classList.add('pokemon');
@@ -49,18 +50,19 @@ function createPokemonCard(pokemon) {
 	
 	pokemonEl.style.backgroundColor = color;
 
+	// !Skapar html
 	const pokeInnerHTML = 
 		`<div class="img-container">
             <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png" alt="${name}"/>
         </div>
         <div class="info">
-            <span class="number">#${pokemon.id.toString().padStart(3, '0')}</span>
+            <span class="number">#${pokemon.id.toString().padStart(3, ' ')}</span>
             <h3 class="name">${name}</h3>
             <p class="type">Type:<span>${type}</span></p>
         </div>`;
 
 	pokemonEl.innerHTML = pokeInnerHTML;
-	pokemonContainer.appendChild(pokemonEl);
+	document.getElementById('pokemon-container').appendChild(pokemonEl);
 }
 
 fetchPokemons();
