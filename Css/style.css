@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
 }
 
-body {
+.index-body {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -42,8 +42,8 @@ button {
 button:hover {
   cursor: pointer;
   transition: 0.4s;
-  box-shadow: 5px 5px 5px #7fcbeb;
-  -webkit-box-shadow: 5px 5px 5px #7fcbeb;
+  box-shadow: 5px 5px 5px #09729f;
+  -webkit-box-shadow: 5px 5px 5px #09729f;
 }
 
 button:focus {

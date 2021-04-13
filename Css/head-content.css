@@ -1,3 +1,16 @@
+.head-content {
+  margin: 2.5%;
+  height: 90%;
+  width: 95%;
+  background-size: cover;
+  border-radius: 50px;
+  margin-bottom: 5rem;
+
+  /* !shadow */
+  box-shadow: 10px 15px 5px rgb(103, 103, 103);
+  -webkit-box-shadow: 10px 15px 5px rgb(103, 103, 103);
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

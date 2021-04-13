@@ -1,61 +1,13 @@
-body {
+/* !Index */
+.index-body {
   background: url("Images/sky.jpg");
 }
 
-.head-content {
-  margin: 2.5%;
-  height: 90%;
-  width: 95%;
+:is(.head-content, .box-content, .box-content2, .footer-content) {
   background: url("Images/bg.jpg") no-repeat center center;
-  background-size: cover;
-  border-radius: 50px;
-  margin-bottom: 5rem;
-
-  /* !shadow */
-  box-shadow: 20px 30px 10px rgb(103, 103, 103);
-  -webkit-box-shadow: 20px 30px 10px rgb(103, 103, 103);
-}
-
-.box-content {
-  margin: 2.5%;
-  height: 90%;
-  width: 95%;
-  background: url("Images/bg.jpg") no-repeat center center;
-  background-size: cover;
-  border-radius: 50px;
-  margin-bottom: 5rem;
-
-  /* !shadow */
-  box-shadow: 20px 30px 10px rgb(103, 103, 103);
-  -webkit-box-shadow: 20px 30px 10px rgb(103, 103, 103);
-}
-.box-content2 {
-  transform: rotate(-180deg);
-  margin: 2.5%;
-  height: 90%;
-  width: 95%;
-  background: url("Images/bg.jpg") no-repeat center center;
-  background-size: cover;
-  border-radius: 50px;
-  margin-bottom: 5rem;
-
-  /* !shadow */
-  box-shadow: -20px -30px 10px rgb(103, 103, 103);
-  -webkit-box-shadow: -20px -30px 10px rgb(103, 103, 103);
-}
-
-.footer-content {
-  margin: 2.5%;
-  background: url("Images/bg.jpg") no-repeat right;
-  background-size: cover;
-  border-radius: 50px;
-  transform: rotate(-180deg);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* !Gif animation */
-
 .gif {
   content: url("Images/stand.gif");
   border-radius: 100px;

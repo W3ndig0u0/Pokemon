@@ -2,26 +2,26 @@
 
 @keyframes pokeconsmall {
   from {
-    padding-top: 0%;
-    width: 100px;
-    height: 100px;
+    padding-bottom: 100%;
+    width: 140px;
+    height: 90px;
   }
   to {
-    padding-top: 20%;
+    padding-top: 40%;
     width: 150px;
-    height: 100px;
+    height: 90px;
   }
 }
 @keyframes pokeconbig {
   from {
-    padding-top: 20%;
+    padding-top: 40%;
     width: 150px;
-    height: 100px;
+    height: 90px;
   }
   to {
-    padding-top: 0%;
-    width: 100px;
-    height: 100px;
+    padding-bottom: 100%;
+    width: 140px;
+    height: 90px;
   }
 }
 
@@ -43,6 +43,28 @@
   to {
     max-width: 90%;
     margin-top: 0%;
+  }
+}
+
+@keyframes appear-pokemon {
+  from {
+    margin-top: 0%;
+    transform: translateY(100px);
+  }
+  to {
+    margin-top: 20%;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes hide-pokemon {
+  from {
+    margin-top: 0%;
+    transform: translateY(0px);
+  }
+  to {
+    margin-top: 20%;
+    transform: translateY(300px);
   }
 }
 
