@@ -17,6 +17,6 @@
   animation-duration: 5s;
 }
 
-.body.active {
+.index-body.active {
   overflow-y: hidden;
 }
