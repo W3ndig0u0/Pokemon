@@ -3,7 +3,11 @@
   background: url("Images/sky.jpg");
 }
 
-:is(.head-content, .box-content, .box-content2, .footer-content) {
+:is(.index-content, .reverse-index-content) {
+  background: url("Images/bg.jpg");
+}
+
+.footer-content {
   background: url("Images/bg.jpg") no-repeat center center;
 }
 
