@@ -1,9 +1,9 @@
-.header.active .head-content {
+.header.active .index-content {
   animation: head-content-animation 2s ease;
   transform: perspective(900px) rotateY(20deg) translateZ(100px) scale(0.5);
 }
 
-.header .head-content {
+.header .index-content {
   animation: head-content-back-animation 1s ease-in;
 }
 
