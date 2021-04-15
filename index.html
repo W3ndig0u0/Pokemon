@@ -1,162 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- !Css -->
-  <link rel="stylesheet" href="bg.css">
-  <link rel="stylesheet" href="Css/style.css">
-  <link rel="stylesheet" href="Css/animation.css">
-  <link rel="stylesheet" href="Css/loading.css">
-  <link rel="stylesheet" href="Css/header.css">
-  <link rel="stylesheet" href="Css/head-content.css">
-  <link rel="stylesheet" href="Css/pokedex.css">
-  <link rel="stylesheet" href="Css/box.css">
-  <link rel="stylesheet" href="Css/footer.css">
+    <!-- !Css -->
+    <link rel="stylesheet" href="bg.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/animation.css" />
+    <link rel="stylesheet" href="Css/loading.css" />
+    <link rel="stylesheet" href="Css/header.css" />
+    <link rel="stylesheet" href="Css/head-content.css" />
+    <link rel="stylesheet" href="Css/pokedex.css" />
+    <link rel="stylesheet" href="Css/box.css" />
+    <link rel="stylesheet" href="Css/footer.css" />
 
-<!-- !Js -->
-<script defer src="loader.js"></script>
-<script defer src="header.js"></script>
-<script defer src="pokedex.js"></script>
+    <!-- !Js -->
+    <script defer src="loader.js"></script>
+    <script defer src="header.js"></script>
+    <script defer src="pokedex.js"></script>
 
-  <!-- !Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- !Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- !Img -->
-<link rel="shortcut icon" type="image/png" href="Images/Pikachu.png">
+    <!-- !Img -->
+    <link rel="shortcut icon" type="image/png" href="Images/Pikachu.png" />
 
-  <title>Tannuki — Home</title>
-</head>
+    <title>Tannuki — Home</title>
+  </head>
 
-<body onload="timer()" class="index-body">
+  <body onload="timer()" class="index-body">
+    <!-- !Loading Screen -->
+    <div id="loader">
+      <img class="loader-gif" src="Images/logo1.gif" alt="Loading Screen" />
+    </div>
 
-<!-- !Loading Screen -->
-<div id="loader">
-  <img  class="loader-gif" src="Images/logo1.gif" alt="Loading Screen" />
-</div>
+    <!-- !Header -->
+    <header class="header">
+      <div class="animate-bottom">
+        <section class="index-content">
+          <div class="grid">
+            <div class="left">
+              <img class="gif" />
+              <a href=""
+                ><img
+                  class="logo"
+                  src="Images/logo-removebg-preview.png"
+                  alt="Logo"
+              /></a>
+              <h1>Pokémon Mac and Cheese</h1>
+              <a href="#"><button class="btn-all btn1">Knapp 1</button></a>
+              <a href="#"><button class="btn-all btn2">knapp 2</button></a>
 
-<!-- !Header -->
-<header class="header" >
-  <div class="animate-bottom">
-
-    <section class="index-content">
-      <div class="grid">
-        
-        <div class="left">
-          <img class="gif">
-          <a href=""><img class="logo" src="Images/logo-removebg-preview.png" alt="Logo"></a>
-          <h1>Pokémon Mac and Cheese</h1>
-          <a href="#"><button class="btn-all btn1">Knapp 1</button></a>
-          <a href="#"><button class="btn-all btn2">knapp 2</button></a>
-          
-          <p>Nulla rem suscipit similique quae consequatur esse voluptatem sunt ut quibusdam corporis! Fugit itaque laudantium facere, ex obcaecati sequi dignissimos fugiat voluptatibus doloremque!</p>
-          
-        </div> 
-        <img class="right-img" src="Images/Pikachu.png" alt="Pikachu">
-        <button class="menu">Menu</button>
+              <p>
+                Nulla rem suscipit similique quae consequatur esse voluptatem
+                sunt ut quibusdam corporis! Fugit itaque laudantium facere, ex
+                obcaecati sequi dignissimos fugiat voluptatibus doloremque!
+              </p>
+            </div>
+            <img class="right-img" src="Images/Pikachu.png" alt="Pikachu" />
+            <button class="menu">Menu</button>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-  
-  <div class="links">
-    <ul>
-      <button class="menu1">Menu</button>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Pokémon Finder</a>
-        </li>
-        <li>
-          <a href="#">Movies & Series</a>
-        </li>
-        <li>
-          <a href="#">Games & Cards</a>
-        </li>
-        <li>
-          <a href="#">Pokédex</a>
-        </li>  
+
+      <div class="links">
+        <ul>
+          <button class="menu1">Menu</button>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Pokémon Finder</a>
+          </li>
+          <li>
+            <a href="#">Movies & Series</a>
+          </li>
+          <li>
+            <a href="#">Games & Cards</a>
+          </li>
+          <li>
+            <a href="#">Pokédex</a>
+          </li>
           <li>
             <a href="#">About Us</a>
           </li>
         </ul>
-    </div>
+      </div>
+    </header>
 
-  </header>
-
-  <main id="main">
-    
-
-    <!-- !Section 1 -->
-    <section class="index-content">
-      <h1 class="title">Pokedex</h1>
-      <h3 class="pokedex-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi facilis ducimus aliquam accusamus soluta natus, dolorem ea deleniti. Facere, quas excepturi? Sunt repellat, quis iure laudantium adipisci soluta saepe!</h3>
-      <div id="pokemon-container" class="pokemon-container"></div>
+    <main id="main">
+      <!-- !Section 1 -->
+      <section class="index-content">
+        <h1 class="title">Pokedex</h1>
+        <h3 class="pokedex-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi
+          facilis ducimus aliquam accusamus soluta natus, dolorem ea deleniti.
+          Facere, quas excepturi? Sunt repellat, quis iure laudantium adipisci
+          soluta saepe!
+        </h3>
+        <div id="pokemon-container" class="pokemon-container"></div>
       </section>
-    
-        <!-- !Section 2 -->
-    <section class="reverse-index-content">
-         <div class="content2">
-           <div class="grid">
-           <div class="left-box2">
-             <img src="Images/Pikachu.png" alt="Pictures" class="movie-img1">
-             <img src="Images/Pikachu.png" alt="Pictures" class="movie-img2">
-             </div>
-       <div class="right-box2">
-           <h5 class="movie-header">Movies & Series</h5>
-           <p class="movie-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed natus accusamus, recusandae doloremque iure harum voluptatibus, ipsam fugit nihil voluptate saepe perferendis tenetur quo provident necessitatibus hic explicabo placeat.</p>
-         </div>
-         </div>
+
+      <!-- !Section 2 -->
+      <section class="reverse-index-content">
+        <div class="content2">
+          <div class="grid">
+            <div class="left-box2">
+              <img src="Images/poster.jpg" alt="Pictures" class="movie-img1" />
+              <img src="Images/movie-poster2.jpg" alt="Pictures" class="movie-img2" />
+            </div>
+            <div class="right-box2">
+              <h5 class="movie-header">Movies & Series</h5>
+              <p class="movie-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed
+                natus accusamus, recusandae doloremque iure harum voluptatibus,
+                ipsam fugit nihil voluptate saepe perferendis tenetur quo
+                provident necessitatibus hic explicabo placeat.
+              </p>
+            </div>
+          </div>
         </div>
-        </section>
+      </section>
 
-        <!-- !Section 3 -->
-   <section class="index-content">
-     <div class="content">
-       <div class="grid">
-         
-    <div class="left-box1">
-      <h5 class="game-header">Games & Cards</h5>
-      <p class="game-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed natus accusamus, recusandae doloremque iure harum voluptatibus, ipsam fugit nihil voluptate saepe perferendis tenetur quo provident necessitatibus hic explicabo placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolores.</p>
-    </div>
-    
-    <div class="right-box1">
-      <img src="Images/Pikachu.png" alt="Pictures" class="game-img1">
-      <img src="Images/Pikachu.png" alt="Pictures" class="game-img2">
-      </div>
-    </div>
-  </div>
-</section>
+      <!-- !Section 3 -->
+      <section class="index-content">
+        <div class="content">
+          <div class="grid">
+            <div class="left-box1">
+              <h5 class="game-header">Games & Cards</h5>
+              <p class="game-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed
+                natus accusamus, recusandae doloremque iure harum voluptatibus,
+                ipsam fugit nihil voluptate saepe perferendis tenetur quo
+                provident necessitatibus hic explicabo placeat. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quidem, dolores.
+              </p>
+            </div>
+            <!-- !DO HOVER :BEFORE Effect!!!  -->
 
-  
-<!-- !Section 4 -->
-<section class="index-content">
-    <div class="grid">
+            <div class="right-box1">
+              <img src="Images/game-poster1.jfif" alt="Pictures" class="game-img1" />
+              <img src="Images/cards.png" alt="Pictures" class="game-img2" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <input type="text" name="fname"><br><br>
-      <img class="right-img" src="Images/Pikachu.png" alt="Pikachu">
-    </div> 
-    </section>
+      <!-- !Section 4 -->
+      <section class="index-content">
+        <div class="grid">
+          <input type="text" name="fname" /><br /><br />
+          <img class="right-img" src="Images/Pikachu.png" alt="Pikachu" />
+        </div>
+      </section>
+    </main>
 
-  </main>
-
-  <footer id="footer"  class="animate-bottom">
-    <section class="footer-content">
-      <a href="#" class="top"><img src="Images/arrow.gif" alt="Gif"></a>
-      <img class="footer-right" src="Images/attack2.gif" alt="Gif">
-      <a href=""><img class="footer-mid" src="Images/logo-removebg-preview.png" alt="Logo"></a>
-      <div class="footer-left">
-      <a href="#"><img class="media" src="Images/fb.png" alt="Facebook Logo"></a>
-      <a href="#"><img class="media" src="Images/tw.png" alt="Twitter Logo"></a>
-      <a href="#"><img class="media" src="Images/ig.png" alt="Instagram Logo"></a>
-      </div>
-    </section>
-
-  </footer>
-
-
-</body>
+    <footer id="footer" class="animate-bottom">
+      <section class="footer-content">
+        <a href="#" class="top"><img src="Images/arrow.gif" alt="Gif" /></a>
+        <img class="footer-right" src="Images/attack2.gif" alt="Gif" />
+        <a href=""
+          ><img
+            class="footer-mid"
+            src="Images/logo-removebg-preview.png"
+            alt="Logo"
+        /></a>
+        <div class="footer-left">
+          <a href="#"
+            ><img class="media" src="Images/fb.png" alt="Facebook Logo"
+          /></a>
+          <a href="#"
+            ><img class="media" src="Images/tw.png" alt="Twitter Logo"
+          /></a>
+          <a href="#"
+            ><img class="media" src="Images/ig.png" alt="Instagram Logo"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

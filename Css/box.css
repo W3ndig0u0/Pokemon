@@ -16,21 +16,37 @@
 
 .game-p {
   text-align: start;
-  margin-right: 270px;
+  margin-right: 300px;
   color: #0d6dc8;
+  margin-bottom: 5rem;
 }
 
 .right-box1 {
-  margin-left: 6rem;
+  margin-left: 10rem;
 }
 
 .game-img1 {
-  width: 48%;
-  margin-bottom: 7rem;
+  max-height: 14rem;
+  max-width: 10rem;
+  width: 44%;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  margin-right: 2rem;
+  border-radius: 28px;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
 .game-img2 {
-  width: 48%;
+  max-height: 14rem;
+  max-width: 10rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  border-radius: 110px;
+
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* !Movies */
@@ -52,7 +68,7 @@
 }
 
 .movie-p {
-  margin-left: 250px;
+  margin-left: 300px;
   color: #0d6dc8;
 }
 
@@ -62,12 +78,26 @@
 }
 
 .movie-img1 {
-  width: 48%;
+  max-height: 14rem;
+  width: 30%;
+  margin-top: 1.5rem;
   margin-bottom: 7rem;
+  margin-right: 2rem;
+  border-radius: 48px;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .movie-img2 {
-  width: 48%;
+  max-height: 14rem;
+  width: 30%;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 48px;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .reverse-index-content {
