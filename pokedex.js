@@ -23,7 +23,7 @@ const main_types = Object.keys(colors);
 
 // !Pokemon ID + Antalt
 const fetchPokemons = async () => {
-	for (let i = 0; i <= 3; i++) {
+	for (let i = 0; i <= 2; i++) {
 		const random = Math.floor(Math.random() * (1 - 890 + 1)) + 890;
 		await getPokemon(random);
 	}

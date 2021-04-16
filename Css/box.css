@@ -2,6 +2,9 @@
 .content {
   margin: 4rem;
 }
+.content1 {
+  margin-left: 5rem;
+}
 
 .left-box1 {
   min-width: 45%;
@@ -12,13 +15,15 @@
   text-align: start;
   color: #0d6cc8;
   font-weight: bold;
+  font-size: 58px;
 }
 
 .game-p {
   text-align: start;
   margin-right: 300px;
   color: #0d6dc8;
-  margin-bottom: 5rem;
+  font-size: 24px;
+  margin-bottom: 2rem;
 }
 
 .right-box1 {
@@ -26,12 +31,12 @@
 }
 
 .game-img1 {
-  max-height: 14rem;
+  max-height: 12rem;
   max-width: 10rem;
-  width: 44%;
+  width: 40%;
   margin-top: 2rem;
   margin-bottom: 10rem;
-  margin-right: 2rem;
+  margin-left: 5rem;
   border-radius: 28px;
 
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -39,7 +44,7 @@
 }
 
 .game-img2 {
-  max-height: 14rem;
+  max-height: 12rem;
   max-width: 10rem;
   width: 50%;
   margin-bottom: 1rem;
@@ -53,7 +58,7 @@
 
 .content2 {
   transform: rotate(-180deg);
-  margin: 2rem;
+  margin: 5rem;
 }
 
 .right-box2 {
@@ -65,9 +70,11 @@
   font-size: 2rem;
   text-align: end;
   color: #0d6cc8;
+  font-size: 52px;
 }
 
 .movie-p {
+  font-size: 24px;
   margin-left: 300px;
   color: #0d6dc8;
 }
@@ -105,4 +112,38 @@
   /* !shadow */
   box-shadow: -10px -15px 10px rgb(103, 103, 103);
   -webkit-box-shadow: -10px -15px 10px rgb(103, 103, 103);
+}
+
+/* !MERCH */
+
+.content3 {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.merch-header {
+  font-weight: bold;
+  font-size: 72px;
+  padding-top: 3rem;
+  text-align: center;
+  color: #0d6dc8;
+}
+
+.merch-p {
+  font-size: 28px;
+  text-align: center;
+}
+
+.merch-imgs {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 48px;
+}
+
+.merch-img {
+  border-radius: 48px;
+  max-height: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 48px;
 }
