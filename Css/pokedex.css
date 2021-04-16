@@ -4,9 +4,11 @@
   font-size: 72px;
   padding-top: 3rem;
 }
+
 .pokedex-text {
-  text-align: center;
   font-size: 28px;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 /* !Utanför */
