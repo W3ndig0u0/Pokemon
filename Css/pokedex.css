@@ -40,18 +40,16 @@
   height: 2.5rem;
 }
 
-.pokemon:hover .img-container,
-.pokemon:active .img-container {
+:is(.pokemon:hover .img-container, .pokemon:active .img-container) {
   background-color: white;
-  animation: pokeconbig 0.9s forwards ease;
+  animation: pokeconbig 1s forwards ease;
 }
 
 .pokemon .img-container img {
   animation: bigger 2s forwards ease;
 }
 
-.pokemon:hover .img-container img,
-.pokemon:active .img-container img {
+:is(.pokemon:hover .img-container img, .pokemon:active .img-container img) {
   animation: smaller 1s forwards ease;
 }
 
@@ -60,8 +58,7 @@
   animation: hide-pokemon 1s forwards ease;
 }
 
-.pokemon:hover .info,
-.pokemon:active .info {
+:is(.pokemon:hover .info, .pokemon:active .info) {
   animation: appear-pokemon 1s forwards ease;
 }
 
@@ -73,8 +70,7 @@
   animation: hide 1s forwards ease;
 }
 
-.pokemon:hover .number,
-.pokemon:active .number {
+:is(.pokemon:hover .number, .pokemon:active .number) {
   animation: appear 1s forwards ease;
 }
 
@@ -84,7 +80,6 @@
   animation: hide 1s forwards ease;
 }
 
-.pokemon:hover .name,
-.pokemon:active .name {
+:is(.pokemon:hover .name, .pokemon:active .name) {
   animation: appear 1s forwards ease;
 }

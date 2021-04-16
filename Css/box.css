@@ -39,8 +39,8 @@
   margin-left: 5rem;
   border-radius: 28px;
 
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .game-img2 {
@@ -50,8 +50,8 @@
   margin-bottom: 1rem;
   border-radius: 110px;
 
-  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* !Movies */
@@ -92,8 +92,8 @@
   margin-right: 2rem;
   border-radius: 48px;
 
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .movie-img2 {
@@ -103,8 +103,8 @@
   margin-bottom: 1.5rem;
   border-radius: 48px;
 
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .reverse-index-content {
@@ -117,11 +117,11 @@
 /* !MERCH */
 
 .content3 {
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin: 5rem;
 }
 
 .merch-header {
+  margin: 0;
   font-weight: bold;
   font-size: 72px;
   padding-top: 3rem;
@@ -132,12 +132,12 @@
 .merch-p {
   font-size: 28px;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .merch-imgs {
   display: flex;
   justify-content: space-around;
-  border-radius: 48px;
 }
 
 .merch-img {
@@ -146,4 +146,7 @@
   margin-top: 2rem;
   margin-bottom: 3rem;
   border-radius: 48px;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
