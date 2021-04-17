@@ -1,57 +1,10 @@
-/* !Games */
-.content {
-  margin: 5rem;
-}
-.content1 {
-  margin-left: 5rem;
-}
-
-.left-box1 {
-  min-width: 45%;
-}
-
-.game-header {
-  font-size: 2rem;
-  text-align: start;
-  color: #0d6cc8;
-  font-weight: bold;
-  font-size: 58px;
-}
-
-.game-p {
-  text-align: start;
-  margin-right: 300px;
-  color: #0d6dc8;
-  font-size: 24px;
-  margin-bottom: 2rem;
-}
-
-.right-box1 {
-  margin-left: 10rem;
-}
-
-.game-img1 {
-  max-height: 12rem;
-  max-width: 10rem;
-  width: 40%;
-  margin-top: 2rem;
-  margin-bottom: 10rem;
-  margin-left: 5rem;
-  border-radius: 28px;
-
+:is(.game-img1, .game-img2, .movie-img1, .movie-img2, .merch-img) {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-.game-img2 {
-  max-height: 12rem;
-  max-width: 10rem;
-  width: 50%;
-  margin-bottom: 1rem;
-  border-radius: 110px;
-
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+:is(.game-p, .game-header, .movie-header, .movie-p, .merch-header, .merch-p) {
+  color: var(--index-text-color);
 }
 
 /* !Movies */
@@ -69,42 +22,35 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: end;
-  color: #0d6cc8;
   font-size: 52px;
 }
 
 .movie-p {
+  text-align: end;
   font-size: 24px;
-  margin-left: 300px;
-  color: #0d6dc8;
+  margin-left: 12rem;
 }
 
 .left-box2 {
   margin: 0;
-  margin-right: 6rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .movie-img1 {
-  max-height: 14rem;
-  width: 30%;
-  margin-top: 1.5rem;
+  max-height: 16rem;
+  width: 11rem;
   margin-bottom: 7rem;
   margin-right: 2rem;
   border-radius: 48px;
-
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .movie-img2 {
-  max-height: 14rem;
-  width: 30%;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-right: 2rem;
+  max-height: 16rem;
+  width: 11rem;
   border-radius: 48px;
-
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .reverse-index-content {
@@ -112,6 +58,45 @@
   /* !shadow */
   box-shadow: -10px -15px 10px rgb(103, 103, 103);
   -webkit-box-shadow: -10px -15px 10px rgb(103, 103, 103);
+}
+
+/* !Games */
+.content {
+  margin: 5rem;
+}
+.content1 {
+  margin-left: 5rem;
+}
+
+.game-header {
+  font-size: 2rem;
+  text-align: start;
+  font-weight: bold;
+  font-size: 58px;
+  text-shadow: white 0px 0px 11px;
+}
+
+.game-p {
+  text-align: start;
+  margin-right: 20rem;
+  font-size: 24px;
+  margin-bottom: 2rem;
+  width: 25rem;
+  text-shadow: white 0px 0px 11px;
+}
+
+.game-img1 {
+  width: 12rem;
+  margin-top: 2rem;
+  margin-right: 8rem;
+  border-radius: 48px;
+}
+
+.game-img2 {
+  margin-left: 8rem;
+  width: 12rem;
+  margin-bottom: 1rem;
+  border-radius: 1100px;
 }
 
 /* !MERCH */
@@ -126,13 +111,14 @@
   font-size: 72px;
   padding-top: 3rem;
   text-align: center;
-  color: #0d6dc8;
 }
 
 .merch-p {
   font-size: 28px;
   text-align: center;
   padding-bottom: 1rem;
+  background-color: hsla(0, 0%, 0%, 0.01);
+  text-shadow: white 0px 0px 10px;
 }
 
 .merch-imgs {
@@ -146,7 +132,4 @@
   margin-top: 2rem;
   margin-bottom: 3rem;
   border-radius: 48px;
-
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }

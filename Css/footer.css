@@ -39,8 +39,8 @@ footer {
 .top img:hover {
   cursor: pointer;
   transition: 0.4s;
-  box-shadow: 5px 10px 5px #0d6cc8;
-  -webkit-box-shadow: 5px 10px 50px #0d6cc8;
+  box-shadow: 0px 0px 5px var(--index-text-color);
+  -webkit-box-shadow: 0px 0px 5px var(--index-text-color);
 }
 
 .footer-mid {
@@ -55,8 +55,8 @@ footer {
 .footer-mid:hover {
   cursor: pointer;
   transition: 0.4s;
-  box-shadow: 5px 10px 5px #0d6cc8;
-  -webkit-box-shadow: 5px 10px 50px #0d6cc8;
+  box-shadow: 1px 1px 5px var(--index-text-color);
+  -webkit-box-shadow: 1px 1px 5px var(--index-text-color);
 }
 
 .footer-left {
@@ -70,7 +70,7 @@ footer {
   cursor: pointer;
   transition: 0.4s;
   box-shadow: 2px 2px 5px black;
-  -webkit-box-shadow: 0px 10px 50px black;
+  -webkit-box-shadow: 1px 1px 5px black;
 }
 
 .media {

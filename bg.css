@@ -3,7 +3,7 @@
   background: url("Images/sky.jpg");
 }
 
-:is(.index-content, .reverse-index-content) {
+:is(.index-content, .reverse-index-content, .header-content) {
   background: url("Images/bg.jpg");
 }
 

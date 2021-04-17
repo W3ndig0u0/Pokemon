@@ -1,0 +1,109 @@
+@media only screen and (max-width: 600px) {
+  .header-content {
+    background: url("/Images/bg.jpg") right;
+  }
+
+  /* !Head */
+
+  .left {
+    width: 0%;
+  }
+  .grid {
+    display: contents;
+    grid-template-columns: 0fr;
+  }
+  .menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .right-img {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 18rem;
+  }
+
+  .btn1 {
+    margin: 2rem;
+  }
+
+  .left {
+    z-index: 10;
+    margin: 0.5rem;
+  }
+
+  .left .logo {
+    width: 20rem;
+    max-width: 10rem;
+    border-radius: 10px;
+  }
+
+  .left .logo:hover:active {
+    box-shadow: 1px 1px 3px var(--index-text-color);
+    -webkit-box-shadow: 1px 1px 3px var(--index-text-color);
+  }
+
+  .left h1 {
+    margin: 0;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .left p {
+    height: 20rem;
+    width: 20rem;
+    visibility: hidden;
+  }
+
+  .btn2 {
+    display: none;
+  }
+
+  .right-box2 {
+    display: none;
+  }
+
+  .left-box1 {
+    display: none;
+  }
+  .right-box1 {
+    display: none;
+  }
+  .merch-imgs {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* !Head */
+  .example {
+    background: green;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* !Head */
+
+  .example {
+    background: blue;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* !Head */
+
+  .example {
+    background: orange;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* !Head */
+
+  .example {
+    background: pink;
+  }
+}

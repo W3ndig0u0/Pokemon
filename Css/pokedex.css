@@ -6,9 +6,11 @@
 }
 
 .pokedex-text {
+  color: rgb(255, 238, 0);
   font-size: 28px;
   text-align: center;
   padding-bottom: 1rem;
+  text-shadow: white 0px 0px 11px;
 }
 
 /* !Utanför */

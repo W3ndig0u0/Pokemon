@@ -71,13 +71,13 @@
   }
 
   to {
-    transform: perspective(900px) rotateY(20deg) translateZ(100px) scale(0.5);
+    transform: perspective(900px) rotateY(20deg) translateZ(-50px) scale(0.5);
   }
 }
 
 @keyframes head-content-back-animation {
   from {
-    transform: perspective(900px) rotateY(20deg) translateZ(100px) scale(0.5);
+    transform: perspective(900px) rotateY(20deg) translateZ(-50px) scale(0.5);
   }
 
   to {

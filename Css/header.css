@@ -1,9 +1,9 @@
-.header.active .index-content {
+.header.active .header-content {
   animation: head-content-animation 2s ease;
-  transform: perspective(900px) rotateY(20deg) translateZ(100px) scale(0.5);
+  transform: perspective(900px) rotateY(20deg) translateZ(-50px) scale(0.5);
 }
 
-.header .index-content {
+.header .header-content {
   animation: head-content-back-animation 1s ease-in;
 }
 
@@ -12,7 +12,7 @@
   position: absolute;
   top: 15%;
   right: 30%;
-  background: #7fcbeb;
+  background: var(--index-light-light-text-color);
   z-index: -1;
 }
 
@@ -37,11 +37,11 @@
 .links a {
   opacity: 0;
   text-decoration: none;
-  color: #0d6cc8;
+  color: var(--index-text-color);
   padding: 0.7rem 0;
   display: inline-block;
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1 em;
   font-weight: 300;
   text-transform: uppercase;
   transition: 0.3s;
