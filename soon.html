@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cooming Soon</title>
+</head>
+<style>
+
+* {
+  /* !Undraggable */
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bgimg {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(117, 19, 93, 0.23));
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32px;
+  }
+  
+  .topleft img{
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 10rem;
+  }
+  .middle { 
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  text-shadow: white 0px 0px 10px;
+  } 
+
+  #demo{
+    color: white;
+    font-size: 28px;
+  text-shadow: white 0px 0px 10px;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+  </style>  
+<body>
+  <div class="bgimg">
+    <div class="topleft">
+      <a href="index.html">
+        <img src="Images/logo-removebg-preview.png" alt="">
+      </a>
+    </div>
+    <div class="middle">
+      <h1>COMING SOON</h1>
+      <hr>
+      <p id="demo"></p>
+    </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  function changeRandomimage() {
+      var imageArray = ["https://i.pinimg.com/originals/75/a7/b4/75a7b43b6728b39c3f9948870c7773c9.jpg","https://www.pxwall.com/wp-content/uploads/2019/04/4K-Red-Background.jpg","https://www.feedster.com/wp-content/uploads/2019/06/3d-cube-background-4k-yo.jpg", "https://wallpaperaccess.com/full/30100.jpg","https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://img5.goodfon.com/wallpaper/nbig/9/6b/wallpaper-background-4k-ultra-hd-height-legs-boots-water-sho.jpg", "https://4kwallpapers.com/images/wallpapers/mountains-rocks-night-starry-sky-scenery-illustration-macos-5120x2880-3810.jpg", "https://i0.wp.com/wallpaperset.com/w/full/0/a/9/8646.jpg", "https://wallpapercave.com/wp/wp6689710.jpg", "https://wallpapershome.com/images/wallpapers/ios-14-2-1920x1080-artwork-day-4k-23209.jpg", "https://wallpapershome.com/images/wallpapers/ios-14-2-1920x1080-artwork-day-4k-23209.jpg", "https://cdn.wallpapersafari.com/68/45/5Svzw6.jpg", "https://www.wallpapertip.com/wmimgs/3-32965_nature-background-4k.jpg", "https://i.redd.it/9ulg9aqhwx331.jpg", "https://img5.goodfon.com/wallpaper/nbig/a/4b/the-devils-bridge-germany-most-solntse-reka-osen.jpg","https://free4kwallpapers.com/uploads/originals/2020/11/24/k-ultra-chill-background-wallpaper.jpg","https://i.pinimg.com/originals/00/6f/f3/006ff3898f125caf95f5676d4581e220.jpg","https://wallpapercave.com/wp/wp5405311.jpg", "https://pm1.narvii.com/7050/5ca48df84515597164e8fb93679dc928c04b7facr1-2048-1165v2_hq.jpg", "https://pbs.twimg.com/media/CLrU_eqUYAAvIu9.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNuJjmq6aPaLREoD98ZIpwLrI63So5UWkpRpLx187zpKgNLuxANRo5n4RXrs3ljaQxn0&usqp=CAU", "https://images.unsplash.com/photo-1553949285-bdcb31ec5cba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1555231955-348aa2312e19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1554502785-b8b0724b4cbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1555993539-1732b0258235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1557231146-afde25e6598f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"];
+      var randomImage = Math.floor(Math.random() * imageArray.length);
+      document.body.background = imageArray[randomImage];
+  }
+  changeRandomimage();
+  </script>
+
+
+<script>
+  // Set the date we're counting down to
+var countDownDate = new Date("May 12, 2021 22:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</html>
