@@ -13,8 +13,8 @@
   position: relative;
   -webkit-animation-name: animatebottom;
   animation-name: animatebottom;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 .index-body.active {

@@ -42,7 +42,7 @@
   from {
     visibility: hidden;
     margin-top: 0%;
-    transform: translateY(100px);
+    transform: translateY(40px);
   }
   to {
     visibility: visible;
@@ -60,7 +60,7 @@
   to {
     visibility: hidden;
     margin-top: 20%;
-    transform: translateY(300px);
+    transform: translateY(100px);
   }
 }
 

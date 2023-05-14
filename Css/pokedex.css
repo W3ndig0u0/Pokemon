@@ -6,11 +6,10 @@
 }
 
 .pokedex-text {
-  color: rgb(255, 238, 0);
+  color: #ffee00;
   font-size: 28px;
   text-align: center;
   padding-bottom: 1rem;
-  text-shadow: white 0px 0px 11px;
 }
 
 /* !Utanför */
@@ -25,7 +24,6 @@
 
 /* !Korten */
 .pokemon {
-  background-color: white;
   border-radius: 30px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
   margin: 3rem;
@@ -39,31 +37,37 @@
 .pokemon .img-container {
   border-radius: 50%;
   text-align: center;
-  animation: pokeconsmall 0.9s forwards ease;
-  width: 8rem;
+  animation: pokeconsmall 0.6s forwards ease;
+  width: 9rem;
   height: 2.5rem;
+}
+
+/* !bilden */
+.pokemon .img-container img{
+  width: 100rem;
+  margin: 0;
 }
 
 :is(.pokemon:hover .img-container, .pokemon:active .img-container) {
   background-color: white;
-  animation: pokeconbig 1s forwards ease;
+  animation: pokeconbig 0.5s forwards ease;
 }
 
 .pokemon .img-container img {
-  animation: bigger 2s forwards ease;
+  animation: bigger 0.5s forwards ease;
 }
 
 :is(.pokemon:hover .img-container img, .pokemon:active .img-container img) {
-  animation: smaller 1s forwards ease;
+  animation: smaller 0.5s forwards ease;
 }
 
 /* !Texten */
 .pokemon .info {
-  animation: hide-pokemon 1s forwards ease;
+  animation: hide-pokemon 0.6s forwards ease;
 }
 
 :is(.pokemon:hover .info, .pokemon:active .info) {
-  animation: appear-pokemon 1s forwards ease;
+  animation: appear-pokemon 0.6s forwards ease;
 }
 
 .pokemon .number {
@@ -71,19 +75,28 @@
   border-radius: 10px;
   font-size: 0.8em;
   padding: 5px 10px;
-  animation: hide 1s forwards ease;
+  animation: hide 0.6s forwards ease;
 }
 
 :is(.pokemon:hover .number, .pokemon:active .number) {
-  animation: appear 1s forwards ease;
+  animation: appear 0.6s forwards ease;
 }
 
 .pokemon .name {
   margin: 15px 0 7px;
   letter-spacing: 1px;
-  animation: hide 1s forwards ease;
+  animation: hide 0.6s forwards ease;
 }
 
 :is(.pokemon:hover .name, .pokemon:active .name) {
-  animation: appear 1s forwards ease;
+  animation: appear 0.6s forwards ease;
+}
+
+
+.pokemon .type {
+  animation: hide 0.6s forwards ease;
+}
+
+:is(.pokemon:hover .type, .pokemon:active .type) {
+  animation: appear 0.6s forwards ease;
 }

@@ -24,7 +24,7 @@ const main_types = Object.keys(colors);
 // !Pokemon ID + Antalt
 const fetchPokemons = async () => {
 	for (let i = 0; i <= 2; i++) {
-		const random = Math.floor(Math.random() * (1 - 890 + 1)) + 890;
+		const random = Math.floor(Math.random() * (1 - 999 + 1)) + 999;
 		await getPokemon(random);
 	}
 };
@@ -40,6 +40,7 @@ const getPokemon = async id => {
 
 // !visar Info
 function createPokemonCard(pokemon) {
+	console.log(pokemon);
 	const pokemonEl = document.createElement('div');
 	pokemonEl.classList.add('pokemon');
 
@@ -47,13 +48,14 @@ function createPokemonCard(pokemon) {
 	const type = main_types.find(type => poke_types.indexOf(type) > -1);
 	const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 	const color = colors[type];
+	const img = pokemon.sprites.front_default;
 	
 	pokemonEl.style.backgroundColor = color;
 
 	// !Skapar html
 	const pokeInnerHTML = 
 		`<div class="img-container">
-            <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png" alt="${name}"/>
+            <img src="${img}" alt="${name}"/>
         </div>
         <div class="info">
             <span class="number">#${pokemon.id.toString().padStart(3, ' ')}</span>
